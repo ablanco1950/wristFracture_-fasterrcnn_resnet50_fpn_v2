@@ -5,9 +5,7 @@ This is an experiment adapting the project https://github.com/hubert10/fasterrcn
 
 ![Fig2](https://github.com/ablanco1950/wristFracture_-fasterrcnn_resnet50_fpn_v2/blob/main/ray-of-a-wrist-with-a-distal-radius-fracture-that-has-healed-in-malalignment-with-a_png_jpg.jpg)
 
-![Fig3](https://github.com/ablanco1950/Drone_Detection_YoloFromScratch/blob/main/Figure_3.png)
-
-
+![Fig3](https://github.com/ablanco1950/wristFracture_-fasterrcnn_resnet50_fpn_v2/blob/main/Wrist1.jpg)
 
 1 Download this project wristFracture_fasterrcnn_resnet50_fpn_v2 as a zip file and unzip it into a folder on your hard drive.
 
