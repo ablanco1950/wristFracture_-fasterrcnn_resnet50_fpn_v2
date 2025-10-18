@@ -11,7 +11,7 @@ This is an experiment adapting the project https://github.com/hubert10/fasterrcn
 
 2 Download the master project from [hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset: How to Train Faster RCNN ResNet50 FPN V2 on Custom Dataset?](https://github.com/hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset)
 
-s a zip file and unzip it.
+as a zip file and unzip it.
 
 
 You will get the pattern file folder fasterrcnn_resnet50_fpn_v2_new_dataset-main, along with another subfolder of the same name where this pattern project will go.
@@ -36,7 +36,9 @@ With each epoch, folders named res_epoch number are created in the outputs/train
 
 4. Check the results.
 Assuming the folder where the models were created is res_16 (epoch 16),
+
 python MODinference.py --weights outputs/training/res_16/last_model.pth --input data/wristFracture/dataset/test --threshold 0.8
+
 In the outputs/inference folder, subfolders appear.
 Each time the program is run, a subfolder is created with the fracture detection results (the annotation is shown in green, and the predicted one in blue).
 
