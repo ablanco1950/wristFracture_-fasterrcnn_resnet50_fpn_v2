@@ -42,5 +42,15 @@ python MODinference.py --weights outputs/training/res_16/last_model.pth --input 
 In the outputs/inference folder, subfolders appear.
 Each time the program is run, a subfolder is created with the fracture detection results (the annotation is shown in green, and the predicted one in blue).
 
+Conclusions:
 
+The results are good, but the model is resource-intensive.
+To run it on a personal computer, as intended, the training file had to be reduced to just 104 images and the number of epochs to 25 (50 would have been required).
+
+Note:
+In the roboflow custom dataset the file names are very long and are truncated in Windows.
+
+References:
+https://github.com/hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset
+https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1
 
