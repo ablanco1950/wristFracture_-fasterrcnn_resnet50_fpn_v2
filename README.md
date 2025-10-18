@@ -47,6 +47,9 @@ Conclusions:
 The results are good, but the model is resource-intensive.
 To run it on a personal computer, as intended, the training file had to be reduced to just 104 images and the number of epochs to 25 (50 would have been required).
 
+The MODtrain.py program is identical to the original project's train.py, but it eliminates the ability to obtain the best model through the pycocotools module due to incompatibilities with the pycocotools version and the inability to downgrade to a stable version, such as <= 2.0.9.
+The MODinference.py program is identical to the master project's inference program, adding green-colored detection of labeled boxes, which allows a visual assessment of the system's accuracy.
+
 Note:
 In the roboflow custom dataset the file names are very long and are truncated in Windows.
 
