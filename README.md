@@ -16,9 +16,10 @@ You will get the pattern file folder fasterrcnn_resnet50_fpn_v2_new_dataset-main
 
 From the folder created in step 1:
 
-Copy to the modules:
+Copy the modules:
 
 MODtrain.py
+
 MODinference.py
 
 From the folder created in step 1, copy the data.zip folder and unzip it. This folder contains the images and annotations for the custom wrist fracture dataset, divided into three directories: train, valid, and test.
