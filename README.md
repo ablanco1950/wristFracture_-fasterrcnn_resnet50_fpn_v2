@@ -9,8 +9,10 @@ This is an experiment adapting the project https://github.com/hubert10/fasterrcn
 
 1 Download this project wristFracture_fasterrcnn_resnet50_fpn_v2 as a zip file and unzip it into a folder on your hard drive.
 
-2 Download the master project from hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset: How to Train Faster RCNN ResNet50 FPN V2 on Custom Dataset?
-as a zip file and unzip it.
+2 Download the master project from [hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset: How to Train Faster RCNN ResNet50 FPN V2 on Custom Dataset?](https://github.com/hubert10/fasterrcnn_resnet50_fpn_v2_new_dataset)
+
+s a zip file and unzip it.
+
 
 You will get the pattern file folder fasterrcnn_resnet50_fpn_v2_new_dataset-main, along with another subfolder of the same name where this pattern project will go.
 
